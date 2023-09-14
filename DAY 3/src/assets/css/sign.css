@@ -1,0 +1,122 @@
+body {
+    background-color: #93c3e9;
+}
+
+.siheads {
+    position: fixed;
+    text-align: justify;
+    color: #ffffff;
+    left: 580px;
+    top: 140px;
+}
+
+label {
+    display: inline-flex;
+    font: 4rem 'times new roman';
+}
+
+.sintext1 {
+    position: fixed;
+    text-align: center;
+    height: 64px;
+    width: 483px;
+    left: 450px;
+    top: 230px;
+    border-radius: 30px;
+}
+
+.sintext2 {
+    position: fixed;
+    text-align: center;
+    height: 64px;
+    width: 483px;
+    left: 450px;
+    top: 330px;
+    border-radius: 30px;
+}
+
+.sietext {
+    position: fixed;
+    text-align: center;
+    height: 64px;
+    width: 483px;
+    left: 450px;
+    top: 440px;
+    border-radius: 30px;
+}
+
+.si1etext {
+    position: fixed;
+    text-align: center;
+    height: 64px;
+    width: 483px;
+    left: 450px;
+    top: 550px;
+    border-radius: 30px;
+}
+.si2etext {
+    position: fixed;
+    text-align: center;
+    height: 64px;
+    width: 483px;
+    left: 450px;
+    top: 660px;
+    border-radius: 30px;
+}
+
+.sisubmit {
+    background-color: rgb(160, 238, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 30px;
+    position: fixed;
+    width: 150px;
+    height: 60px;
+    left: 600px;
+    top: 780px;
+    font-size: 150%;
+}
+
+.sisubmit:hover {
+    opacity: 8000%;
+    color: rgb(27, 61, 255);
+}
+
+.looginsignbuttonlink {
+    color: rgb(160, 238, 255);
+    padding: auto;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 30px;
+    position: fixed;
+    width: 250px;
+    height: 60px;
+    left: 700px;
+    top: 740px;
+}
+
+.looginsignbuttonlink:hover {
+    color: rgb(255, 255, 255);
+}
+
+.signimage {
+    position: fixed;
+    top: 100px;
+    right: 265px; /* Adjust the 'right' property to move the image to the right */
+    width: 680px;
+    height: 750px;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.container {
+    position: fixed;
+    top: 100px;
+    margin-left: -600px; 
+    left: 960px;
+    width: 680px;
+    height: 750px;
+    background-color: rgba(3, 42, 82, 0.9);
+}
