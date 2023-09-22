@@ -1,0 +1,143 @@
+.admin-dashboardtE {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .sidebartE {
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: -725px;
+    margin-left: -700px;
+  }
+  
+  .sidebartE h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .sidebartE ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebartE li {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .contenttE {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .contenttE h1 {
+    font-size: 24px;
+  }
+  
+  .logotE {
+    font-size: xx-large;
+    font-weight: 100;
+    font-family: fantasy;
+  }
+  
+  .user-profiletE {
+    margin-top: -800px;
+  }
+  
+  .page-headertE {
+    margin-top: -700px;
+    color: #ffffff;
+  }
+  
+  .headertE {
+    position: fixed;
+    top: 0px;
+    left: 290px;
+    width: 1255px;
+    height: 100px;
+    background-color: rgba(209, 232, 255, 0.9);
+    overflow: hidden;
+    border-radius: 0%;
+    color: #333;
+    align-items: center;
+  }
+  
+  .header-infotE {
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .welcometE {
+    margin-top: -20px;
+    left: 800px;
+    position: fixed;
+  }
+  
+  .dashboard-contenttE {
+    display: flex;
+    flex-direction: row-reverse; 
+    justify-content: flex-end; 
+  }
+  
+  .dashboard-item1tE {
+    width: calc(50% - 10px);
+    margin-left: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 50px 50px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 140px;
+    color: #333;
+  }
+  .dashboard-item2tE {
+    width: calc(50% - 10px);
+    margin-left: 20px; 
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 50px 50px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 140px;
+    color: #333;
+    margin-top: 70px;
+  }
+  
+  .cardtE h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .logout-buttontE{
+    position: fixed;
+    margin-top: -50px;
+    right: 30px;
+    border-radius: 12px;
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .logout-buttontE:hover{
+    background-color: #ffffff;
+    color: blue;
+  }
+  .iconlogouttE{
+    margin-left: 1050px;
+    margin-top:-10px;
+  }
+  .animation-containertE {
+    position: fixed;
+    top: 100px; /* Adjust the top position as needed */
+    right: 20px; /* Adjust the right position as needed */
+    width: 690px;
+    height: 900rem;
+  }
+  .nav-itemtE:hover {
+    cursor: pointer;
+    background-color: #b6b6b6;
+    color: black;
+  }
