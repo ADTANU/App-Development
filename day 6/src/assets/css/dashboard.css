@@ -1,0 +1,52 @@
+/* Update header styles */
+.header {
+  top: 60px; /* Reduce top margin */
+}
+
+/* Update welcome message styles */
+.welcomedash {
+  left: 650px; /* Adjust left position */
+  font-size: medium; /* Reduce font size */
+}
+
+/* Update card container styles */
+.dashboard-item-container {
+  width: calc(50% - 20px);
+  margin-bottom: 20px;
+  margin-left: 0;
+  display: flex;
+  justify-content: space-between; /* Arrange cards side by side */
+}
+
+/* Update card styles */
+.dashboard-item1,
+.dashboard-item2,
+.dashboard-item3,
+.dashboard-item4 {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #333;
+  width: calc(50% - 20px); /* Adjust card width for two cards in a row */
+  margin-top: 0; /* Remove margin-top for all cards */
+}
+
+/* Update animation position */
+.animcondash {
+  position: fixed;
+  left: 900px; /* Adjust left position */
+  top: 100px; /* Adjust top position */
+  width: 300px; /* Reduce animation width */
+  height: 400px; /* Reduce animation height */
+}
+
+/* Update main content width and alignment */
+.main-contentdash {
+  width: 100%; /* Use full width of the screen */
+  max-width: 1200px; /* Limit maximum width for readability */
+  margin: 0 auto; /* Center align the content */
+}
+
+/* Additional styles can be added as needed */

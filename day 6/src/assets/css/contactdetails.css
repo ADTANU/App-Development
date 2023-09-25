@@ -1,0 +1,56 @@
+/* ContactDetails.css */
+
+.contact-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .contact-info {
+    margin-bottom: 20px;
+  }
+  
+  .contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color:#fff ;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+    color:#bfbfbf ;
+  }
+  
+  .social-links a {
+    color: #68aeff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+  }
+  
+  .social-links a:hover {
+    color: #fff;
+  }
+  .classcolorforfollow{
+    color: #fff;
+  }
+  /* CSS for ContactDetails component */
+
+/* Style for link buttons */
+.link-button {
+    background: none;
+    border: none;
+    padding: 0;
+    width: 200px;
+    font: inherit;
+    color: #4aa0fd;
+    cursor: pointer;
+    text-decoration: underline; 
+  }
+
+  .link-button:hover {
+    text-decoration: none; 
+    color: #0056b3; 
+  }
+  

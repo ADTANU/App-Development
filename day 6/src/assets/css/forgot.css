@@ -1,0 +1,105 @@
+/* CSS for the Forgot Password page */
+
+.forgot-password-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 320px;
+  margin-left: 290px;
+  height: 90px;
+  max-width: 1000px;
+  border-radius: 20px;
+}
+
+.forgotmail {
+  color: #000;
+  margin-top: 30px;
+  width: 300px;
+  margin-left: -300px;
+  text-align: center;
+  font-size: smaller;
+  border-radius: 15px;
+  height: 40px;
+}
+
+.forgot-password-content {
+  background-color: #ffffff;
+  padding: 60px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 600px; /* Adjust the width as needed */
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.message {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #4caf50; /* Green color for success message */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+/* Updated button styles */
+.buttons-container {
+  display: flex;
+  justify-content: space-between; /* Align buttons side by side */
+  width: 100%; /* Ensure buttons span the full width */
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue color for button */
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 250px;
+  height: 40px;
+}
+
+button:hover {
+  color: #0056b3;
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.animation-containerforgot {
+  position: fixed;
+  top: 150px; /* Adjust the top position as needed */
+  right: 260px;
+  width: 600px;
+}
