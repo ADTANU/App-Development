@@ -1,0 +1,51 @@
+/* terms.css */
+
+.terms-container {
+  max-width: 800px;
+  padding: 70px 80px;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: -590px;
+  margin-left: 60px;
+  text-align: justify;
+  align-items: center;
+}
+.longpara{
+    width: 900px;
+}
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+  color: #555;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #777;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+.animation-containerterms{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.animcon{
+  margin-top: -50px;
+  margin-left: 775px;
+  width: 700px;
+}
+.back-buttonterms{
+  margin-left: 163px;
+}

@@ -1,0 +1,35 @@
+/* aboutUs.css */
+
+.about-us-container {
+  width: 80%; /* Increase the width of the container */
+  margin: 0 auto;
+  padding: 2%; /* Adjust padding as needed */
+  /* background-color: rgb(189, 224, 255); */
+  text-align: center; /* Center the text horizontally */
+  position: absolute;
+  top: 190px; /* Position the container at the top of the page */
+  left: 10%; /* Adjust left position as needed */
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+  
