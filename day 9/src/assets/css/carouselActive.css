@@ -1,0 +1,14 @@
+/* Add this CSS for centering the container */
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh; /* Optionally, set the height to fill the viewport */
+    background-color: rgb(222, 237, 251);
+    border-radius: 9px;
+    gap: 90px;
+    width: 400px;
+}
+.item{
+    max-width: 200px;
+}  
