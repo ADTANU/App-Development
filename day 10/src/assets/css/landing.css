@@ -1,0 +1,110 @@
+/* Header styles */
+.headerlanding {
+  background-color: #68aeff;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px; /* Adjust padding for smaller screens */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo h1 {
+  font-size: 24px; /* Reduce font size for smaller screens */
+  margin-left: 10px; /* Reduce margin for smaller screens */
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+.user-welcome {
+  margin-right: 40px; /* Reduce margin for smaller screens */
+  font-weight: bold;
+  
+}
+
+.logoutonlandingpage{
+  width: 90px;
+  font-weight: bold;
+  background-color:transparent ;
+}
+
+/* Navigation styles */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 70px;
+  margin-right: 10px; /* Reduce margin for smaller screens */
+}
+
+.navbar ul li {
+  margin-right: 10px; /* Reduce margin for smaller screens */
+}
+
+.navbar ul li:last-child {
+  margin-right: 0;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: #333;
+}
+
+/* Content section */
+.paragraph-section {
+  margin-top: 80px; /* Adjust margin for smaller screens */
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  padding: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+/* Market Insights table */
+.market-insights {
+  display: none;
+}
+
+.market-insights.visible {
+  display: block;
+}
+
+.market-insights h2 {
+  font-size: 20px; /* Reduce font size for smaller screens */
+  margin-bottom: 10px;
+}
+
+.market-insights table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.market-insights th,
+.market-insights td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.market-insights th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.animation-containerland {
+  margin-left: 500px; /* Adjust margin for smaller screens */
+  width: 500px; /* Remove fixed width for responsiveness */
+
+}

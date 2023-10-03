@@ -1,0 +1,167 @@
+
+.limage {
+  padding-left: 177px;
+  padding-top: 90px;
+}
+
+.lheads {
+  position: fixed;
+  text-align: justify;
+  left: 940px;
+  top: 120px;
+  color: rgb(255, 255, 255); /* Text color */
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  font-weight: 900;
+}
+.logincolorchange{
+  font-size: 70px; /* Change the font size to your desired value */
+  color: #ffffff;
+}
+.lheadsWELCOME {
+  font-size: 80px; /* Change the font size to your desired value */
+  position: fixed;
+  text-align: justify;
+  left: 285px;
+  top: 120px;
+  color: #333; /* Text color */
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+
+.error-message {
+  color: rgb(40, 212, 71); /* Set the text color to red */
+  font-size: 14px; /* Set the font size */
+  margin-top: -280px; /* Add spacing between the input field and the error message */
+}
+
+label {
+  display: inline-flex;
+  font: 4rem 'times new roman';
+}
+
+.lntext {
+  position: fixed;
+  text-align: center;
+  height: 30px;
+  width: 400px;
+  left: 850px;
+  top: 310px;
+  border-radius: 30px;
+  font-size: small;
+}
+
+.plntext {
+  position: fixed;
+  text-align: center;
+  height: 30px;
+  width: 400px;
+  left: 850px;
+  top: 400px;
+  border-radius: 30px;
+  font-size: small;
+}
+
+.lsubmit {
+  background-color: rgb(160, 238, 255);
+  color: rgb(0, 0, 0);
+  padding: 10px 10px;
+  cursor: pointer;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 30px;
+  position: fixed;
+  width: 140px;
+  height: 50px;
+  left: 995px;
+  top: 500px;
+  font-size: 100%;
+}
+
+.lsubmit:hover {
+  opacity: 80%;
+  color: rgb(255, 255, 255);
+}
+
+span.psw {
+  float: right;
+  padding-top: 480px;
+  padding-left: 150px;
+}
+
+.forgotbuttonlink {
+  color: #5199ca; 
+  cursor: pointer;
+  font-size: small;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: fixed;
+  width: 150px;
+  height: 60px;
+  left: 1010px;
+  top: 580px;
+}
+
+.forgotbuttonlink:hover {
+  color: rgb(255, 255, 255); 
+}
+
+.sbuttonlink {
+  color: #5199ca;
+  cursor: pointer;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 30px;
+  position: fixed;
+  font-size: larger;
+  width: 250px;
+  height: 90px;
+  left: 1120px;
+  top: 615px;
+}
+
+.sbuttonlink:hover {
+  color: rgb(255, 255, 255); 
+}
+
+.containerlog {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 100px;
+  left: 785px;
+  width: 550px;
+  height: 550px;
+  background-color: rgba(3, 42, 82, 0.9);
+  overflow: hidden;
+  border-radius: 0%;
+}
+.logimage{
+  position: fixed;
+    top: 100px;
+    right: 700px; 
+    width: 600px;
+    height: 550px;
+    background-color: transparent;
+    overflow: hidden;
+}
+.error {
+  color: white;
+  text-align: center;
+  margin-left: -110px;
+  margin-top: 0px;
+}
+.accountl{
+  position: fixed;
+  top:600px;
+  color: aliceblue;
+  left: 950px;
+}
+
+.overallclasslog{
+  display: flex;
+}
+.username{
+  position: fixed;
+  left: 970px;
+  top: 160px;
+  color: #ffffff; /* Text color */
+  font-size: 54;
+}

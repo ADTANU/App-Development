@@ -1,0 +1,147 @@
+body {
+    background-color: #93c3e9;
+}
+
+.siheads {
+    position: fixed;
+    text-align: justify;
+    left: 370px;
+    top: 90px;
+    
+}
+.signcolorchange{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 60px;
+}
+.siheadscurren {
+    position: fixed;
+    text-align: justify;
+    color: #333;
+    left: 1000px;
+    top: 100px;
+    font-size: 30PX;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label {
+    display: inline-flex;
+    font: 4rem 'times new roman';
+}
+
+.sintext1 {
+    position: fixed;
+    text-align: center;
+    height: 30px;
+    width: 400px;
+    left: 300px;
+    top: 200px;
+    border-radius: 30px;
+    font-size: small;
+}
+
+.sintext2 {
+    position: fixed;
+    text-align: center;
+    height: 30px;
+    width: 400px;
+    left: 300px;
+    top: 270px;
+    border-radius: 30px;
+    font-size: small;
+}
+
+.sietext {
+    position: fixed;
+    text-align: center;
+    height: 30px;
+    width: 400px;
+    left: 300px;
+    top: 340px;
+    border-radius: 30px;
+    font-size: small;
+}
+
+.si1etext {
+    position: fixed;
+    text-align: center;
+    height: 30px;
+    width: 400px;
+    left: 300px;
+    top: 410px;
+    border-radius: 30px;
+    font-size: small;
+}
+.si2etext {
+    position: fixed;
+    text-align: center;
+    height: 30px;
+    width: 400px;
+    left: 300px;
+    top: 480px;
+    border-radius: 30px;
+    font-size: small;
+}
+
+.sisubmit {
+    background-color: rgb(160, 238, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 30px;
+    position: fixed;
+    width: 140px;
+    height: 50px;
+    left: 445px;
+    top: 550px;
+    font-size: 150%;
+    font-size: large;
+}
+
+.sisubmit:hover {
+    opacity: 8000%;
+    color: rgb(69, 187, 255);
+}
+
+.looginsignbuttonlink {
+    color: rgb(160, 238, 255);
+    padding: auto;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 30px;
+    position: fixed;
+    width: 250px;
+    height: 60px;
+    left: 570px;
+    top: 612px;
+}
+
+.looginsignbuttonlink:hover {
+    color: rgb(255, 255, 255);
+}
+
+.signimage {
+    position: fixed;
+    top: 100px;
+    right: 140px; 
+    width: 600px;
+    height: 550px;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.containersign {
+    position: fixed;
+    top: 100px;
+    margin-left: -600px; 
+    left: 800px;
+    width: 600px;
+    height: 550px;
+    background-color: rgba(3, 42, 82, 0.9);
+}
+.account{
+    margin-top:510px;
+    color: aliceblue;
+    margin-left: 180px;
+}

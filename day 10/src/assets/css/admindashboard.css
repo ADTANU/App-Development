@@ -1,0 +1,69 @@
+
+.sidebar {
+  width: 250px; /* Width of the sidebar */
+  background-color: #333;
+  color: #fff;
+  padding: 70px;
+}
+
+.siderClass {
+  width: 250px; /* Width of the sidebar */
+  height: 669px; /* Fill the entire height of the container */
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  background-color: white;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.content h1 {
+  font-size: 24px;
+}
+
+.header {
+  position: fixed;
+  top: -90px;
+  left: 40px; /* Adjust the left position to match the width of the sidebar */
+  width: 40%; /* Adjust the content width */
+  height: 100px;
+  background-color: rgba(197, 222, 248, 0.9);
+  border-radius: 0;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px; /* Adjust the padding on both sides */
+  z-index: 3; /* Ensure it's above the sidebar */
+}
+
+
+
+.header-info {
+  margin-top: 10px;
+}
+
+.welcome {
+  font-size: larger;
+  font-weight: 600;
+}
+
+.logout-button {
+  position: absolute; /* Position it relative to the header */
+  top: 75px; /* Adjust the top position */
+  right: 45px; /* Adjust the right position */
+  border-radius: 12px;
+  width: 100px;
+  height: 40px;
+  background-color: transparent;
+  border-color: transparent;
+  color: #020000;
+  display: flex;
+  align-items: center;
+}
+
