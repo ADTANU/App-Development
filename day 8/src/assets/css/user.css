@@ -1,0 +1,13 @@
+.numberincrease{
+    font-size: larger;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.user-table th {
+    font-weight: bold;
+  }
+  
+  .user-table tbody tr:hover {
+    background-color: #d1f7ff;
+    color: #000;
+  }

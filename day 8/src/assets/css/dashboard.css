@@ -1,0 +1,57 @@
+/* Update header styles */
+.header {
+  top: 60px; /* Reduce top margin */
+}
+
+/* Update welcome message styles */
+.welcomedash {
+  left: 650px; /* Adjust left position */
+  font-size: medium; /* Reduce font size */
+}
+
+/* Update card container styles */
+/* Update card container styles */
+.dashboard-item-container {
+  display: grid;
+  grid-template-columns: repeat(4, 4fr); /* Two columns with equal width */
+  gap: 50px; 
+  margin-bottom: 20px;
+}
+
+/* Update card styles */
+.dashboard-item1,
+.dashboard-item2,
+.dashboard-item3,
+.dashboard-item4 {
+  background-color: #ffffff;
+  padding: 20px 40px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #333;
+  width: 200px;
+  height: 150px;
+}
+
+
+/* Update animation position */
+.animcondash {
+  position: fixed;
+  left: 900px; /* Adjust left position */
+  top: 100px; /* Adjust top position */
+  width: 300px; /* Reduce animation width */
+  height: 400px; /* Reduce animation height */
+}
+
+/* Update main content width and alignment */
+.main-contentdash {
+  width: 100%; /* Use full width of the screen */
+  max-width: 1200px; /* Limit maximum width for readability */
+  margin: 0 auto; /* Center align the content */
+}
+
+/* Additional styles can be added as needed */
+.card-contentdash{
+ font-size: xx-large;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
